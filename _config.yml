@@ -84,7 +84,7 @@ keywords: "Jekyll, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: false
 
 # Specify the date when the site was setup
 #since: 2015
@@ -96,7 +96,9 @@ authoricon: heart
 copyright: true
 
 # ---------------------------------------------------------------
-# SEO Settings
+# SEO 
+
+tings
 # ---------------------------------------------------------------
 
 # Canonical, set a canonical link tag in your jekyll, you could use it for your SEO of blog.
@@ -118,9 +120,9 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
+  categories: /categories/
   #about: /about/
-  archives: /archives/
+  #archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
@@ -233,7 +235,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/test.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -353,7 +355,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # ---------------------------------------------------------------
